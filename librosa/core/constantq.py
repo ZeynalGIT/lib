@@ -1055,7 +1055,7 @@ def __vqt_filter_fft(
     hop_length=None,
     window="hann",
     gamma=0.0,
-    dtype=np.complex64,
+    dtype=complex,
     alpha=None,
 ):
     """Generate the frequency domain variable-Q filter basis."""
